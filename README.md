@@ -16,6 +16,10 @@ These are organized in various python Jupyter notebooks.
 
 * **`DCI and Density Estimation.ipynb`** contains the analysis of how these density estimation techniques influence the data-consistent approach to solving the inverse problem. The notebook shows how uncertainty may be measured by constructing confidence intervals (and demonstrates how to construct them). It also contains a demonstration of inverting component distributions from the Dirichlet process mixture models to obtain a decomposition of the data-consistent solution into clusters, as described at the end of Chapter 4.
 
+
+In addition, a copy of the presentation used for my [dissertation defense](dissertation-presentation.pptx) is included for the user's reference.
+
+
 # Code environment and packages
 
 The following packages are required for running the notebooks. Other than the PDE example (which requires FEniCS), these packages are included with a standard build of [Anaconda](https://www.anaconda.com/).

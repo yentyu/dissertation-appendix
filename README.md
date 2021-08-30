@@ -7,9 +7,13 @@ This appendix contains all of the code required to reproduce the example figures
 These are organized in various python Jupyter notebooks.
 
 * **`Square Plate Bayesian Figures.ipynb` and `Square Plate DCI Figures`** contain the figures from Chapter 1 and Chapter 2 which describe the fixed-plate and wobbly-plate examples and compare the Bayesian and data-consistent approaches to solving these two different example problems.
+
 * **`Stocahstic Wobbly Plate.ipynb`** contains an extension of the wobbly-plate problem to include different types of additional stochastic uncertainty (i.e., an extension to stochastic maps) described in Chapter 3.
+
 * **`PDE`** contains the elliptic pde example with uncertain diffusion represented by a KL expansion and demonstrates how the data-consistent approach may be used to handle truncations in the representation of the permeability field. This is also described in Chapter 3.
+
 * **`Review of Density Estimation.ipynb`** contains a review of different density estimation techniques, specifically: kernel density estimation, bayesian mixture models, and Dirichlet process mixture models. These methods are used to estimate a multi-modal distribution (a "tripeak" density) for the examples in Chapter 4.
+
 * **`DCI and Density Estimation.ipynb`** contains the analysis of how these density estimation techniques influence the data-consistent approach to solving the inverse problem. The notebook shows how uncertainty may be measured by constructing confidence intervals (and demonstrates how to construct them). It also contains a demonstration of inverting component distributions from the Dirichlet process mixture models to obtain a decomposition of the data-consistent solution into clusters, as described at the end of Chapter 4.
 
 # Code environment and packages
